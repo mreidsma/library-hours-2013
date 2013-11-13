@@ -1,0 +1,288 @@
+<style>
+/* ###############################################
+BRANDON: I'm merge this stuff into the main style sheet when we go live
+
+Styles written by Krzysztof Lower, Novemebr 2013. (Nice work, Krz!)
+################################################# */
+
+.library_header > p {
+	padding: 1em;
+	background-color: #88B3DA;
+	color: #363636;
+	font-size: 1.2em;
+	cursor: pointer;
+}
+.active > p, .library_header:hover > p {
+	background-color: #0065A4;
+	color: #fff;
+}
+.active > p {
+	cursor: text;
+}
+.library_name {
+	clear: right;
+	text-transform: uppercase;
+}
+.caps {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.more_hours {
+	margin-bottom: 20px;
+}
+h4.hours_type {
+	padding: 0 20px 10px 0;
+	display: block;
+	float: left;
+	margin: 0;
+}
+.semester_dates {
+	line-height: 2em;
+}
+#lib-hours_wrapper dl {
+	padding-bottom: 20px;
+	clear: both;
+}
+#lib-hours_wrapper dt {
+	float: left;
+	width: 50%;
+	clear: left;
+	padding: 2px 0;
+	color: #0065A4;
+}
+#lib-hours_wrapper dd {
+	display: block;
+	margin-bottom: 5px;
+	padding: 1px 0;
+}
+#hidden_mq {
+	display: block;
+}
+
+@media screen and (max-device-width: 50em) {
+	#hidden_mq {display: none;}
+}
+
+@media screen and (max-device-width: 550px) {
+
+
+}
+</style>
+
+<div id="lib-hours_wrapper">
+	
+	<!-- Markup by Krzysztof Lower, November 2013. Nice work, Krz! -->
+
+	<h2>Library Hours</h2>
+
+	<div class="trigger inactive library_header line">
+		<p><span class="library_name">Mary Idema Pew</span> is <span class="caps">open now</span> until 2am</p>
+	</div>
+	
+	<div class="more_hours target line">
+		
+		<div class="regular span2 unit left">
+			<h4 class="hours_type">Fall Hours</h4>
+			<h5 class="semester_dates">(Aug 26 &ndash; Dec 13)</h5>
+			
+			<dl class="hours">
+				<dt>Sunday</dt>
+					<dd>10am &ndash; 2am</dd>
+				<dt>Mon &ndash; Thu</dt>
+					<dd>7am &ndash; 2am</dd>
+				<dt>Friday</dt>
+					<dd>7am &ndash; 9pm</dd>
+				<dt>Saturday</dt>
+					<dd>12pm &ndash; 8pm</dd>
+			</dl>
+			
+			<h4 class="hours_type">Exceptions</h4>
+			<dl class="hours">
+				<dt>October 31</dt>
+					<dd>10am &ndash; 2am</dd>
+				<dt>December 25</dt>
+					<dd>7am &ndash; 2am</dd>
+			</dl>
+		</div><!-- End .regular -->
+		<div class="span2 unit left">
+			<img alt="Mary Idema Pew Library Learning and Information Commons" src="http://placekitten.com/525/375" />
+		</div>
+	</div>
+	
+	<div class="trigger library_header line">
+		<p><span class="library_name">Steelcase Library</span> is <span class="caps">open now</span> until midnight</p>
+	</div>
+
+	<div class="more_hours target line">
+		<div class="regular span2 unit left">
+			<h4 class="hours_type">Fall Hours</h4>
+			<h5 class="semester_dates">(Aug 26 &ndash; Dec 13)</h5>
+			<dl class="hours">
+				<dt>Sunday</dt>
+					<dd>11am &ndash; Midnight</dd>
+				<dt>Mon &ndash; Thu</dt>
+					<dd>7:30am &ndash; Midnight</dd>
+				<dt>Friday</dt>
+					<dd>7:30am &ndash; 9pm</dd>
+				<dt>Saturday</dt>
+					<dd>9am &ndash; 9pm</dd>
+			</dl>
+			
+			<h4 class="hours_type">Exam Hours</h4>
+			<h5 class="semester_dates">(Dec 9 - 14)</h5>
+			<dl class="hours">
+				<dt>Mon &ndash; Wed</dt>
+					<dd>6am &ndash; 4am</dd>
+				<dt>Thurs &ndash; Sunday</dt>
+					<dd>24 Hour Service</dd>
+			</dl>
+			<h4 class="hours_type">Exceptions</h4>
+			<dl class="hours">
+				<dt>October 31</dt>
+					<dd>10am &ndash; 2am</dd>
+				<dt>December 25</dt>
+					<dd>7am &ndash; 2am</dd>
+			</dl>
+		</div>
+		<div class="span2 unit left">
+			<img alt="Steelcase Library" src="http://placekitten.com/525/375" />
+		</div>
+	</div>
+		
+	<div class="trigger library_header line">
+		<p><span class="library_name">Frey Library</span> is <span class="caps">open now</span> until 10pm</p>
+	</div>
+
+	<div class="more_hours target line">
+		<div class="regular span2 unit left">
+			<h4 class="hours_type">Fall Hours</h4>
+			<h5 class="semester_dates">(Aug 26 &ndash; Dec 13)</h5>
+			<dl class="hours">
+				<dt>Sunday</dt>
+					<dd>Closed</dd>
+				<dt>Mon &ndash; Thu</dt>
+					<dd>7:30am &ndash; 10pm</dd>
+				<dt>Friday</dt>
+					<dd>7:30am &ndash; 5pm</dd>
+				<dt>Saturday</dt>
+					<dd>12pm &ndash; 4pm</dd>
+			</dl>
+			
+			<h4 class="hours_type">Exam Hours</h4>
+			<h5 class="semester_dates">(Dec 9 - 14)</h5>
+			<dl class="hours">
+				<dt>Mon &ndash; Wed</dt>
+					<dd>6am &ndash; 4am</dd>
+				<dt>Thurs &ndash; Sunday</dt>
+					<dd>24 Hour Service</dd>
+			</dl>
+			<h4 class="hours_type">Exceptions</h4>
+			<dl class="hours">
+				<dt>October 31</dt>
+					<dd>10am &ndash; 2am</dd>
+				<dt>December 25</dt>
+					<dd>7am &ndash; 2am</dd>
+			</dl>
+		</div>
+		<div class="span2 unit left">
+			<img alt="Frey Library" src="http://placekitten.com/525/375" />
+		</div>
+	</div>
+		
+		
+	<div class="trigger library_header line">
+		<p><span class="library_name">Curriculum Materials Library</span> is <span class="caps">open now</span> until 9pm</p>
+	</div>
+	
+	<div class="more_hours target line">
+		<div class="regular span2 unit left">
+			<h4 class="hours_type">Fall Hours</h4>
+			<h5 class="semester_dates">(Aug 26 &ndash; Dec 13)</h5>
+			<dl class="hours">
+				<dt>Sunday</dt>
+					<dd>1pm &ndash; 5pm</dd>
+				<dt>Mon &ndash; Thu</dt>
+					<dd>9am &ndash; 9pm</dd>
+				<dt>Friday</dt>
+					<dd>9am &ndash; 4:30pm</dd>
+				<dt>Saturday</dt>
+					<dd>1pm &ndash; 5pm</dd>
+			</dl>
+			
+			<h4 class="hours_type">Exceptions</h4>
+			<dl class="hours">
+				<dt>October 31</dt>
+					<dd>10am &ndash; 2am</dd>
+				<dt>December 25</dt>
+					<dd>7am &ndash; 2am</dd>
+			</dl>
+			
+		</div>
+		<div class="span2 unit left">
+			<img alt="Curriculum Materials Library" src="http://placekitten.com/525/375" />
+		</div>
+	</div>
+		
+	<div class="trigger library_header line">
+		<p><span class="library_name">Seidman House</span> is <span class="caps">CLOSED</span> until 8am on Monday</p>
+	</div>
+
+	<div class="more_hours target line">
+		<div class="regular span2 unit left">
+			<h4 class="hours_type">Fall Hours</h4>
+			<h5 class="semester_dates">(Aug 26 &ndash; Dec 13)</h5>
+			<dl class="hours">
+				<dt>Mon &ndash; Friday</dt>
+					<dd>8am &ndash; 4:30pm</dd>
+				<dt>Saturday &amp; Sunday</dt>
+					<dd>Closed</dd>
+			</dl>
+			<h4 class="hours_type">
+				Exceptions</h4>
+			<dl class="hours">
+				<dt>October 31</dt>
+					<dd>10am &ndash; 2am</dd>
+				<dt>December 25</dt>
+					<dd>7am &ndash; 2am</dd>
+			</dl>
+		</div>
+		<div class="span2 unit left">
+			<img alt="Seidman House" src="http://placekitten.com/525/375" />
+		</div>
+	</div>
+	
+	<!-- Brandon, the following div lets us trigger JS actions based on active media queries. PLease include it! Thanks. -->
+	<div id="hidden_mq">&nbsp;</div>
+	
+</div><!-- End #hours-wrapper -->
+
+<!-- BRANDON: I'll roll the following scripts into the main library JS once this is live, but for now I'm front-loading the jquery file that will also be called in the footer -->	
+<script src="files/js/jquery.min.js"></script>
+<script>
+// Hides all additional hour information except first one
+$(document).ready(function() {
+	
+	// Script written by Krzysztof Lower, Novemebr 2013. (Nice work, Krz!)
+
+	// Hide all containers
+	$(".target").hide();
+
+	// Show the first container if the screen is somewhat wide
+	if ($("#hidden_mq").css("display")=='block') {
+		$(".target:first").show();
+	}
+
+	// Show and hide containers from clicks
+	$(".trigger").click(function() {
+		if ($(this).next(".target").css("display")=='none') {
+			$(".target").slideUp(400);
+			$(this).next(".target").slideDown(400);
+		}
+		else {
+			$(this).next(".target").slideUp(400);
+		}
+
+	});
+
+});
+</script>
